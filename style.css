@@ -1,0 +1,23 @@
+.displayScreen{
+    border: 4px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+    text-align: right;
+}
+
+.num {
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    flex: 1;
+}
+
+.numPad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
